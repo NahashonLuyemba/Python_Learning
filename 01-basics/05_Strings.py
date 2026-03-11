@@ -25,6 +25,28 @@ print('hi' in my_str) #False
 print('e' in my_str) #True
 print('f' in my_str) #False
 
+#Length of string and indexing
+
+my_str = 'Hello world'
+print(len(my_str))
+
+#indexing
+my_str = 'Hello world'
+
+print(my_str[0]) #H
+print(my_str[8]) #r
+
+#neg indexing
+
+print(my_str[-1]) #d
+
+#immutable strings,you can reassign a diff string to a variable
+greeting = 'hi'
+greeting = 'hello'
+print(greeting)
+
+
+
 
 
 
