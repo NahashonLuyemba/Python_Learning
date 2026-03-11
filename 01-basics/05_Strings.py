@@ -15,6 +15,17 @@ msg = "It's a sunny day"
 quote = 'She said, "Hello World!"'
 print(msg, quote)
 
+#to check whether a string contains one or more characters 
+
+my_str = 'Hello world'
+
+print('Hello' in my_str)
+print('hey' in my_str)
+print('hi' in my_str)
+print('e' in my_str)
+print('f' in my_str)
+
+
 
 
 
