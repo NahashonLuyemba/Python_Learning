@@ -45,6 +45,31 @@ greeting = 'hi'
 greeting = 'hello'
 print(greeting)
 
+#string concatenation
+
+my_str_1 = 'Hello'
+my_str_2 = "World"
+
+str_plus_str = my_str_1 + ' ' + my_str_2
+print(str_plus_str) # Hello World
+
+#string + number
+
+name = 'John Doe'
+age = 26
+
+name_and_age = name + str(age)
+print(name_and_age) # John Doe26
+
+#augmented assingnment operator
+
+name = 'John Doe'
+age = 26
+
+name_and_age = name #start with the name
+name_and_age += str(age) #Append the age as string
+
+print(name_and_age) #John Doe26
 
 
 
