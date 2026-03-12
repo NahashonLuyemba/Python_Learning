@@ -82,6 +82,32 @@ num1 = 5
 num2 = 10
 print(f'The sum of {num1} and {num2} is {num1 + num2}') #The sum of 5 and 10 is 15
 
+# String slicing
+
+my_str = "Hello world"
+print(my_str[1:4]) #ell
+
+#omitting the start and stop indices
+
+my_str = 'Hello world'
+print(my_str[:7])
+
+my_str = 'Hello world'
+print(my_str[8:])
+
+#common string methods, upper():
+
+my_str = "hello world"
+uppercase_my_str = my_str.upper()
+print(uppercase_my_str)
+
+#lower():
+
+my_str = 'Hello World'
+lowercase_my_str = my_str.lower()
+print(lowercase_my_str)
+
+
 
 
 
