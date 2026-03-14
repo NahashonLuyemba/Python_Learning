@@ -128,7 +128,30 @@ my_str = 'hello world'
 split_words = my_str.split()
 print(split_words)  # ['hello', 'world']
 
+# join(iterable) :
 
+my_list = ['hello', 'world']
 
+joined_my_str = ''.join(my_list)
+print(joined_my_str) # hello world
+
+# startswith(prefix): 
+my_str = 'hello world'
+
+starts_with_hello = my_str.startswith('hello')
+print(starts_with_hello) # True
+
+# endswith(suffix):
+
+my_str = 'hello world'
+
+ends_with_world = my_str.endswith('world')
+print(ends_with_world) # True
+
+# find(substring):
+my_str = 'hello world'
+
+world_index = my_str.find('world')
+print(world_index) # 6
 
 
