@@ -154,4 +154,42 @@ my_str = 'hello world'
 world_index = my_str.find('world')
 print(world_index) # 6
 
+# count(substring):
+
+my_str = 'hello world'
+
+o_count = my_str.count('o')
+print(o_count) # 2
+
+# capitalize():
+
+my_str = 'hello world'
+
+capitalized_my_str = my_str.capitalize()
+print(capitalized_my_str) # Hello world
+
+# isupper():returns True if all letters in the string are uppercase and False if not.
+
+my_str = 'hello world'
+
+is_all_upper = my_str.isupper()
+print(is_all_upper) # Hello world
+
+# islower():returns True if all letters in the string are lowercase and False if not.
+
+my_str = 'hello world'
+
+is_all_lower = my_str.islower()
+print(is_all_lower) # True
+
+# title():returns a new string with the first letter of each word capitalized.
+
+my_str = 'hello world'
+
+title_case_my_str = my_str.title()
+print(title_case_my_str) # Hello World
+
+
+
+
 
