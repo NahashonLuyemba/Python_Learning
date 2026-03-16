@@ -19,4 +19,7 @@ experience_info = 'Experience: ' + str(experience_years) + ' years'
 print(experience_info)
 
 full_name = 'John Doe'
-employee_card = f'Employee: {full_name} | Age: {employee_age}'
+position = 'Data Analyst'
+salary = 75000
+employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
+print(employee_card)
