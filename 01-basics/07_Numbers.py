@@ -120,3 +120,11 @@ my_int_1 = 56
 my_float_1 = float(my_int_1)
 print(my_float_1)
 print(type(my_float_1))
+
+#int() function
+my_float = 12.92563
+my_int = int(my_float)
+print(my_float)
+print(type(my_int))
+
+
