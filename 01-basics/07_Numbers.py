@@ -127,4 +127,13 @@ my_int = int(my_float)
 print(my_float)
 print(type(my_int))
 
+#str to float or integer
+my_str_int = '45'
+my_str_float = '7.8'
+
+converted_int = int(my_str_int)
+converted_float = float(my_str_float)
+
+print(converted_int, type(converted_int))
+print(converted_float, type(converted_float))
 
