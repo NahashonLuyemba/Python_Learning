@@ -137,3 +137,12 @@ converted_float = float(my_str_float)
 print(converted_int, type(converted_int))
 print(converted_float, type(converted_float))
 
+# round() function
+my_int_1 = 4.798
+my_int_2 = 4.253
+
+rounded_int_1 = round(my_int_1)
+rounded_int_2 = round(my_int_2, 1)
+
+print(rounded_int_1)
+print(rounded_int_2)
