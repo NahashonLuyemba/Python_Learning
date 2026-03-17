@@ -114,3 +114,9 @@ exp_floats = my_float_1 ** my_float_2
 
 print('Integer Exponentiation: ', exp_ints)
 print('Float Exponentiation: ', exp_floats)
+
+#float() function
+my_int_1 = 56
+my_float_1 = float(my_int_1)
+print(my_float_1)
+print(type(my_float_1))
