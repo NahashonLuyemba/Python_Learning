@@ -43,4 +43,20 @@ bits %= 2
 
 print(bits) 
 
+#exponentiation assignment op
+power = 2
+power **= 3
+print(power)
+
+#augmented ops with strings
+greet = 'Hello'
+greet += 'World'
+print(greet)
+
+#repeat of a string using multiplication assign op
+greet = 'Hello'
+greet *= 3
+
+print(greet)
+
 
