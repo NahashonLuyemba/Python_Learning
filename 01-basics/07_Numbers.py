@@ -146,3 +146,16 @@ rounded_int_2 = round(my_int_2, 1)
 
 print(rounded_int_1)
 print(rounded_int_2)
+
+# abs() function
+num = -15
+
+absolute_value = abs(num)
+print(absolute_value)
+
+# pow() function
+result_1 = pow(2, 3)
+print(result_1)
+
+result_2 = pow(2, 3, 5)
+print(result_2)
