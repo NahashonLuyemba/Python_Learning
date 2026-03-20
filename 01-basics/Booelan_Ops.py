@@ -19,5 +19,14 @@ is_employed = False
 
 print(age or is_employed)
  
+#to check if one or more operations is True 
+age = 19
+is_student = True
+
+if age < 18 or is_student:
+    print('You are eligible for a student discount')
+else:
+    print('You are not eligible for a student discount')
     
+        
 
