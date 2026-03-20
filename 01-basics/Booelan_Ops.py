@@ -27,6 +27,21 @@ if age < 18 or is_student:
     print('You are eligible for a student discount')
 else:
     print('You are not eligible for a student discount')
+
+# 'not' operator
+print(not '')
+print(not 'Hello')
+print(not 0) 
+print(not 1)
+print(not False) 
+print(not True)
+
+#not operator in coditionals
+is_admin = False
+
+if not is_admin:
+    print('Access denied for non-administrators.')
+else:
+    print('Welcome, Administrator!')
     
         
-
