@@ -39,5 +39,18 @@ elif age >=  13:
 elif age >= 3:
     print('You are a young child')
 else:
-    print('You are a toddler or an infant') 
-                     
+    print('You are a toddler or an infant')
+
+# nested conditionals 
+is_citizen = True
+age = 25
+
+if is_citizen:
+    if age >= 18:
+        print('You area eligible to vote')
+
+else:
+    print('You are not eligible to vote')        
+
+
+
