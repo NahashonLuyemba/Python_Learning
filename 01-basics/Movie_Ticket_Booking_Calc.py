@@ -6,4 +6,29 @@ show_time = 'Evening'
 
 if age > 17:
     print('User is eligible to book a ticket')
+
+if age >= 21:
+    print('User is eiligble for Evening shows') 
+else:
+    print('User is not eligible for Evening shows') 
+
+is_member = True
+is_weekend = False
+
+discount = 0
+if is_member:
+    discount = 3
+    print('User qualifies for membership discount')
+else:
+    print('User does not qualify for membership discount')
+
+print('Discount:', discount) 
+
+if is_member and age >= 21:
+    print('User is eligible to membership discount and Evening shows')
+
+extra_charges = 0
+if is_weekend:
+    extra_charges = 2
+    print('Extra charges will be applied')
     
