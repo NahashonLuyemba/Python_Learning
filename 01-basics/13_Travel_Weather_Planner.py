@@ -12,8 +12,7 @@ elif distance_mi <= 1:
     if not is_raining:
         print("True")
     else:
-        print("False")
-
+        print("False"
 elif distance_mi <= 6:
     if not is_raining and has_bike:
         print("True")
