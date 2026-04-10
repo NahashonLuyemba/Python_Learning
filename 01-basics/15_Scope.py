@@ -6,3 +6,14 @@ def my_func():
     print(my_var)
 
 my_func()
+
+#Enclosed scope , function nested inside another function can access variables of the function
+def outer_func():
+    msg = 'Hello there!'
+
+    def inner_func():
+        print(msg)
+
+    inner_func()
+
+outer_func()
